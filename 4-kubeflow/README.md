@@ -28,7 +28,7 @@ Kubeflow uses [`ksonnet`](https://github.com/ksonnet/ksonnet) templates as a way
 
 > ksonnet simplifies defining an application configuration, updating the configuration over time, and specializing it for different clusters and environments. 
 
-First, install ksonnet version [0.9.2](https://ksonnet.io/#get-started).
+First, install ksonnet version [0.13.1](https://ksonnet.io/#get-started).
 
 Then run the following commands to deploy Kubeflow in your Kubernetes cluster:
 
@@ -40,7 +40,7 @@ kubectl create namespace ${NAMESPACE}
 # Which version of Kubeflow to use
 # For a list of releases refer to:
 # https://github.com/kubeflow/kubeflow/releases
-VERSION=v0.2.2
+VERSION=v0.3.5
 
 # Initialize a ksonnet app. Set the namespace for it's default environment.
 APP_NAME=my-kubeflow
